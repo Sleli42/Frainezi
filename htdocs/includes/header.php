@@ -5,8 +5,7 @@
 	</head>
 
 	<header><center>
-		<img width="5%" src="../img/logo.jpg"><br />
-		<h1>FRAINEZI</h1>
+		<img width="8%" src="../img/logo.jpg"><br />
 		<ul class="menu">
 		<li><a href="index.php">Acceuil</a></li>
 			<li><a href="shop.php">Shop</a></li>
