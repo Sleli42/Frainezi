@@ -2,8 +2,8 @@
 <html>
 <head><link rel="stylesheet" type="text/css" href="../style/bootstrap.css"></head>
 
-<body class="acc"><center>
-<div class="main">
+<body><center>
+<div class="main-panier">
 
 		</div>
 </center></body>
