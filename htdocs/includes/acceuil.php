@@ -2,7 +2,7 @@
 <html>
 <head><link rel="stylesheet" type="text/css" href="../style/bootstrap.css"></head>
 
-<body class="acc"><center>
+<body><center>
 <div class="main">
 
 		</div>
