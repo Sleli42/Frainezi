@@ -1,18 +1,59 @@
 .main {
-	width: 70%;
-	min-width: 900px;
-	max-width: 1058px;
+	width: 1058px;
 	height: 100%;
 	min-height: 1100px;
 	max-height: auto;
-	padding-top: 20px;
+	padding-top: 0px;
 	color: white;
+	background-color: white;
 }
 
 .keylr {
-	width: 100px;
+	width: 150px;
 	height: 315px;
 	text-align: center;
 	font-size: 90px;
+	color: black;
+	background-color: white;
+}
+
+.table_up {
+	margin-bottom: 0px;
+	border-bottom: 40px solid black;
+}
+
+.slideshow {
+	margin-bottom: 0px;
+   width: 800px;
+   height: 500px;
+   overflow: hidden;
+   /*border: 3px solid black;*/
+}
+
+.slideshow ul {
+    /* 4 images donc 4 x 100% */
+   width: 300%;
+   height: 500px;
+   padding:0; margin:0;
+   list-style: none;
+}
+.slideshow li {
+   float: left;
+}
+
+#offres {
+	width: 1058px;
+	margin-top: -520px;
+	margin-bottom: 0pc;
+	height: 400px;
+	background-color: black;
+}
+
+h2 {
+	background-color: black;
+	margin-top: 19px;
 	color: white;
+	width: 1060px;
+	font-family: Zapf Chancery, cursive;
+	margin-bottom: 0px;
 }
