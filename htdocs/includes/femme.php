@@ -1,30 +1,34 @@
 <!DOCTYPE html>
 <html>
-<head><link rel="stylesheet" type="text/css" href="../style/femme.css"></head>
+<head>
+	<link rel="stylesheet" type="text/css" href="../style/femme.css">
+	<link rel="stylesheet" href="flexslider.css" type="text/css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+	<script src="jquery.flexslider.js"></script>
+	<script type="text/javascript" charset="utf-8">
+ 	 $(window).load(function() {
+   		 $('.flexslider').flexslider();
+  	});
+	</script>
+</head>
 
-<body><center>
+<body>
+	<center>
 	<div class="main" style="background-color: #f3cdfb;">
-		<span id="sl_play" class="sl_command"></span>
-		<span id="sl_pause" class="sl_command"></span>
-		<span id="sl_i1" class="sl_command sl_i"></span>
-		<span id="sl_i2" class="sl_command sl_i"></span>
-		<section id="slideshow">
-			<a class="play_commands pause" href="#sl_pause" title="Maintain paused">Pause</a>
-			<a class="play_commands play" href="#sl_play" title="Play the animation">Play</a>
-			<div id="container">
-				<div class="slider">
-					<figure>
-						<img src="../img/photoshop/decoupe_tshirt_rose.jpg" alt="" width="640px" height="420px" />
-						<figcaption>T-shirt Rose</figcaption>
-					</figure>
-					<figure>
-						<img src="../img/photoshop/decoupe_tshirt_noir.jpg" alt="" width="640px" height="420px" />
-						<figcaption>T-shirt<em>Noir</em></figcaption>
-					</figure>
-				</div>
-			</div>
-			<span id="timeline"></span>
-		</section>
+		<div class="flexslider">
+		 <ul class="slides">
+		   	  <li>
+			      <img height="420px" width="650px" src="../img/tswblack.jpg" />
+			    </li>
+			    <li>
+			      <img height="420px" width="650px" src="../img/tswblack.jpg" />
+			    </li>
+			    <li>
+			      <img height="420px" width="650px" src="../img/lunette.jpg" />
+		 	  </li>
+	 	 </ul>
+		</div>
 	</div>
-</center></body>
-</html>
+	</center>
+</body>
+</html>s
