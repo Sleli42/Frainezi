@@ -4,7 +4,7 @@ h1 {
 
 .hdr {
 	position: relative;
-	width: 100%;
+	width: 1060px;
 	min-height: 100%;
 	margin: 0px;
 	padding: 0px;
@@ -28,6 +28,7 @@ h1 {
 	padding-top: 20px;
 	margin-bottom: -19px;
 	background-color: white;
+	border-bottom: 1px solid black;
 
 }
 
