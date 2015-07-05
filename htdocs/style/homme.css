@@ -2,12 +2,12 @@
 	width: 1058px;
 	min-width: 900px;
 	max-width: 1058px;
-	height: 2000px;
+	height: 2400px;
 	min-height: 1100px;
-	max-height: 1700px;
+	max-height: 2500px;
 	color: white;
 	background-color: #ffffff;
-
+	z-index: 0;
 }
 
 #sectionProd {
@@ -15,23 +15,28 @@
 }
 
 .areaProd {
+	/*box-shadow: -1px 2px 20px rgba(255, 255, 255, 0.6) inset;*/
 	display: inline-block;
 	margin: 0 0 40px 60px;
 	width: 940px;
 	height: 300px;
 	background: rgba(149,210,255, 0.6);
-	border: 1px solid black;
+	/*border: 1px solid black;*/
 	z-index: 1;
+	border-radius: 21px;
+
 }
 
 .line {
 	position: relative;
 	float: inherit;
-	width: 70%;
+	width: 76%;
 	border-bottom: 1px solid grey;
 	margin-left: 21px;
-	margin-bottom: 40px;
-	margin-top: 20px;
+	margin-right: -21px;
+	margin-bottom: 35px;
+	margin-top: 15px;
+
 }
 
 .newProd {
@@ -43,47 +48,79 @@
 	margin: 0;
 	width: 300px;
 	height: 300px;
-
+	z-index: 2;
 }
 
 .infoProd {
-
 	position: relative;
 	margin-top: -300px;
 	margin-left: 400px;
 	width: 500px;
 	height: 200px;
-	background-color: black;
-	z-index: 2;
+	/*background-color: black;*/
+	z-index: 1;
 }
 
 h1 {
-	float: left;
-	font-family: 'Source Code Pro';
-	font-size: 30px;
-	margin: 20px 0 0 45px;
+	position: absolute;
+	font-family: 'Libre Baskerville', serif;
+	font-size: 20px;
+	margin: -30px 0 0 -75px;
 	padding: 0;
+	font-style: italic;
+	z-index: 2;
 }
 
 .description {
-
+	position: relative;
+	margin: 20px 0 0 -420px;
+	padding: 0;
 	font-style: italic;
 	font-size: 21px;
+	z-index: 2;
 }
 
 .prix {
-	font-size : 60px;
+	position: relative;
+	font-size : 80px;
 	padding: 0;
+	margin: 40px 0 0 -400px;
+	z-index: 2;
 }
 
 .centimes {
-	font-size: 30px;
+	position: absolute;
+	margin-bottom: 30px;
+	font-size: 35px;
+	padding: 0;
+	z-index: 2;
+
+}
+
+.moreInfoArea {
+	display: inline-block;
+	position: relative;
+	margin: -254px -409px 0 0;
+	background: rgba(255,255,255, 0.5);
+	width: 170px;
+	height: 300px;
+	z-index: 5;
+	border-radius: 21px;
+	transition: all 2s;
+}
+
+.moreInfoArea:hover {
+	background: rgba(000,000,000, 0.8);
+	border-color: #000000;
+	border-radius: 10%;
 }
 
 .moreInfo {
+	display: block;
+	position: absolute;
 	text-decoration: none;
 	font-family: 'Source Code Pro';
 	font-style: italic;
 	font-size: 18px;
-	text-align: center;
+	z-index: 5;
 }
