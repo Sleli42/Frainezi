@@ -1,10 +1,134 @@
 .main {
-	width: 70%;
+	width: 1058px;
 	min-width: 900px;
 	max-width: 1058px;
-	height: 100%;
+	height: 2400px;
 	min-height: 1100px;
-	max-height: auto;
-	padding-top: 20px;
+	max-height: 2500px;
 	color: white;
+	background-color: #ffffff;
+	z-index: 0;
+}
+
+#sectionProd {
+	float: left;
+}
+
+.areaProd {
+	/*box-shadow: -1px 2px 20px rgba(255, 255, 255, 0.6) inset;*/
+	display: inline-block;
+	margin: 0 0 40px 60px;
+	width: 940px;
+	height: 300px;
+	background: rgba(149,210,255, 0);
+	border: 1px solid black;
+	z-index: 1;
+	transition: all 0.5s;
+}
+
+
+.areaProd:hover {
+	-moz-box-shadow: 3px 6px 21px 0px #656565;
+-webkit-box-shadow: 3px 6px 21px 0px #656565;
+-o-box-shadow: 3px 6px 21px 0px #656565;
+box-shadow: 3px 6px 21px 0px #656565;
+filter:progid:DXImageTransform.Microsoft.Shadow(color=#656565, Direction=153, Strength=21);
+	/*background: rgba(000,000,000, 0);*/
+}
+
+.line {
+	position: relative;
+	float: inherit;
+	width: 76%;
+	border-bottom: 1px solid grey;
+	margin-left: 21px;
+	margin-right: -21px;
+	margin-bottom: 35px;
+	margin-top: 15px;
+
+}
+
+.newProd {
+	position: relative;
+	margin: inherit;
+	/*float: left;*/
+	background-color: white;
+	padding: 0;
+	margin: 0;
+	width: 300px;
+	height: 300px;
+	z-index: 2;
+}
+
+.infoProd {
+	position: relative;
+	margin-top: -300px;
+	margin-left: 400px;
+	width: 500px;
+	height: 200px;
+	/*background-color: black;*/
+	z-index: 1;
+}
+
+h1 {
+	position: absolute;
+	font-family: 'Libre Baskerville', serif;
+	font-size: 20px;
+	margin: -30px 0 0 -75px;
+	padding: 0;
+	font-style: italic;
+	z-index: 2;
+}
+
+.description {
+	position: relative;
+	margin: 20px 0 0 -420px;
+	padding: 0;
+	font-style: italic;
+	font-size: 21px;
+	z-index: 2;
+}
+
+.prix {
+	position: relative;
+	font-size : 80px;
+	padding: 0;
+	margin: 40px 0 0 -400px;
+	z-index: 2;
+}
+
+.centimes {
+	position: absolute;
+	margin-bottom: 30px;
+	font-size: 35px;
+	padding: 0;
+	z-index: 2;
+
+}
+
+.moreInfoArea {
+	position: relative;
+	float: left;
+	margin: 0;
+	/*background: rgba(000,000,000, 0);*/
+	background-color: black;
+	width: 350px;
+	height: 300px;
+	z-index: 3;
+	transition: all 1.5s;
+}
+
+.moreInfoArea:hover {
+	background: rgba(000,000,000, 0.6);
+	border-color: #000000;
+}
+
+.moreInfo {
+	display: block;
+	position: absolute;
+	text-decoration: none;
+	font-family: 'Source Code Pro';
+	font-style: italic;
+	font-size: 18px;
+	z-index: 5;
 }
