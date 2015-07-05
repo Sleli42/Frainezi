@@ -3,6 +3,7 @@
 <head>
 	<link rel="stylesheet" type="text/css" href="../style/homme.css">
 	<link rel="stylesheet" href="flexslider.css" type="text/css">
+	<link href='http://fonts.googleapis.com/css?family=Libre+Baskerville' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Source+Code+Pro' rel='stylesheet' type='text/css'>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
@@ -30,7 +31,14 @@
 								    </li>
 						 	 </ul>
 						</div>
-						<div class="infoProd"></div>
+						<div class="infoProd">
+							<h1>T-SHIRT FRAINEZI SARAJEVO</h1><br />
+							<p class="description">petite description du produit ...</p>
+							<p class="prix">10<font class="centimes">€90</font></p>
+							<div class="moreInfoArea">
+								<a class="moreInfo" href="">+ d'infos</a>
+							</div>
+						</div>
 					</article>
 				</div>
 				<div class="line"></div>
@@ -47,7 +55,14 @@
 								    </li>
 						 	 </ul>
 						</div>
-							<div class="infoProd"></div>
+						<div class="infoProd">
+							<h1>T-SHIRT FRAINEZI JOKER</h1><br />
+							<p class="description">petite description du produit ...</p>
+							<p class="prix">10<font class="centimes">€99</font></p>
+							<div class="moreInfoArea">
+								<a class="moreInfo" href="">+ d'infos</a>
+							</div>
+						</div>
 						</article>
 					</div>
 					<div class="line"></div>
@@ -64,31 +79,21 @@
 								    </li>
 						 	 </ul>
 						</div>
-							<div class="infoProd"></div>
+						<div class="infoProd">
+							<h1>T-SHIRT FRAINEZI OTHER</h1><br />
+							<p class="description">petite description du produit ...</p>
+							<p class="prix">9<font class="centimes">€99</font></p>
+							<div class="moreInfoArea">
+								<a class="moreInfo" href="">+ d'infos</a>
+							</div>
+						</div>
 						</article>
 					</div>
 					<div class="line"></div>
 				</section>
 			</div>
-<!-- 			<div class="infoProd">
-				<h1>T-SHIRT FRAINEZI SARAJEVO</h1>
-				<p class="description">petite description du produit ...</p>
-				<p class="prix">10<font class="centimes">€90</font></p>
-				<a class="moreInfo" href="">+ d'infos</a>
-			</div>
-			<div class="infoProd">
-				<h1>T-SHIRT FRAINEZI JOKER</h1>
-				<p class="description">petite description du produit ...</p>
-				<p class="prix">10<font class="centimes">€99</font></p>
-				<a class="moreInfo" href="">+ d'infos</a>
-			</div>
-			<div class="infoProd">
-				<h1>T-SHIRT FRAINEZI OTHER</h1>
-				<p class="description">petite description du produit ...</p>
-				<p class="prix">9<font class="centimes">€99</font></p>
-				<a class="moreInfo" href="">+ d'infos</a>
-			</div> -->
 		</div>
 	</center>
 </body>
+<BR /><BR /><BR /><BR /><BR /><BR /><BR />
 </html>
