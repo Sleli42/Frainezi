@@ -33,10 +33,10 @@
 						</div>
 						<div class="infoProd">
 							<h1>T-SHIRT FRAINEZI SARAJEVO</h1><br />
-							<p class="description">petite description du produit ...</p>
+							<p class="description"></p>
 							<p class="prix">10<font class="centimes">€90</font></p>
 							<div class="moreInfoArea">
-								<a class="moreInfo" href="">+ d'infos</a>
+
 							</div>
 						</div>
 					</article>
@@ -57,10 +57,10 @@
 						</div>
 						<div class="infoProd">
 							<h1>T-SHIRT FRAINEZI JOKER</h1><br />
-							<p class="description">petite description du produit ...</p>
+							<p class="description"></p>
 							<p class="prix">10<font class="centimes">€99</font></p>
 							<div class="moreInfoArea">
-								<a class="moreInfo" href="">+ d'infos</a>
+
 							</div>
 						</div>
 						</article>
@@ -81,10 +81,10 @@
 						</div>
 						<div class="infoProd">
 							<h1>T-SHIRT FRAINEZI OTHER</h1><br />
-							<p class="description">petite description du produit ...</p>
+							<p class="description"></p>
 							<p class="prix">9<font class="centimes">€99</font></p>
 							<div class="moreInfoArea">
-								<a class="moreInfo" href="">+ d'infos</a>
+
 							</div>
 						</div>
 						</article>
