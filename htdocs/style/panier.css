@@ -16,8 +16,8 @@
 
 .areaProd {
 	/*box-shadow: -1px 2px 20px rgba(255, 255, 255, 0.6) inset;*/
-	display: inline-block;
-	margin: 0 0 40px 60px;
+	display: block;
+	margin: 0 0 60px 60px;
 	width: 940px;
 	height: 300px;
 	background: rgba(149,210,255, 0);
@@ -29,10 +29,10 @@
 
 .areaProd:hover {
 	-moz-box-shadow: 3px 6px 21px 0px #656565;
--webkit-box-shadow: 3px 6px 21px 0px #656565;
--o-box-shadow: 3px 6px 21px 0px #656565;
-box-shadow: 3px 6px 21px 0px #656565;
-filter:progid:DXImageTransform.Microsoft.Shadow(color=#656565, Direction=153, Strength=21);
+	-webkit-box-shadow: 3px 6px 21px 0px #656565;
+	-o-box-shadow: 3px 6px 21px 0px #656565;
+	box-shadow: 3px 6px 21px 0px #656565;
+	filter:progid:DXImageTransform.Microsoft.Shadow(color=#656565, Direction=153, Strength=21);
 	/*background: rgba(000,000,000, 0);*/
 }
 
@@ -44,20 +44,8 @@ filter:progid:DXImageTransform.Microsoft.Shadow(color=#656565, Direction=153, St
 	margin-left: 21px;
 	margin-right: -21px;
 	margin-bottom: 35px;
-	margin-top: 15px;
+	margin-top: 25px;
 
-}
-
-.newProd {
-	position: relative;
-	margin: inherit;
-	/*float: left;*/
-	background-color: white;
-	padding: 0;
-	margin: 0;
-	width: 300px;
-	height: 300px;
-	z-index: 2;
 }
 
 .infoProd {
@@ -108,18 +96,39 @@ h1 {
 
 .moreInfoArea {
 	position: relative;
-	float: left;
-	margin: 0;
-	/*background: rgba(000,000,000, 0);*/
+	display: block;
+	margin-top: -360px;
+	width: 940px;
+	height: 300px;
+	background: rgba(149,210,255, 0);
+	z-index: 2;
+	transition: all 1.3s;
+}
+
+.moreInfoArea:hover {
+	background: rgba(200,155,33, 0.2);
+	-moz-box-shadow: inset 0px 0px 100px 5px #ffcc67;
+-webkit-box-shadow: inset 0px 0px 100px 5px #ffcc67;
+-o-box-shadow: inset 0px 0px 100px 5px #ffcc67;
+box-shadow: inset 0px 0px 100px 5px #ffcc67;
+filter:progid:DXImageTransform.Microsoft.Shadow(color=#ffcc67, Direction=NaN, Strength=100);
+}
+
+/*.moreInfoArea2 {
+	display: inline-block;
+	position: relative;
+	float: right;
+	margin-top: -360px;
+	/*background: rgba(000,000,000, 0.);
 	background-color: black;
-	width: 350px;
+	width: 300px;
 	height: 300px;
 	z-index: 3;
 	transition: all 1.5s;
 }
 
-.moreInfoArea:hover {
-	background: rgba(000,000,000, 0.6);
+.moreInfoArea2:hover {
+	background: rgba(000,000,000, 0.1);
 	border-color: #000000;
 }
 
@@ -131,4 +140,4 @@ h1 {
 	font-style: italic;
 	font-size: 18px;
 	z-index: 5;
-}
+}*/
