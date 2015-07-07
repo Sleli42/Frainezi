@@ -20,7 +20,7 @@
 			<div id="sectionProd">
 				<section>
 				<div class="areaProd">
-					<article class="newProd">
+					<article>
 						<div class="flexslider">
 							 <ul class="slides">
 							   	  <li>
@@ -31,20 +31,19 @@
 								    </li>
 						 	 </ul>
 						</div>
-						<div class="infoProd">
+				<!-- 		<div class="infoProd"> -->
 		<!-- 					<h1>T-SHIRT FRAINEZI SARAJEVO</h1><br />
 							<p class="description"></p>
 							<p class="prix">10<font class="centimes">€90</font></p> -->
-				<!-- 			<div class="moreInfoArea">
-
-							</div> -->
-						</div>
+							<a class="moreInfoArea" href=""></a>
+							<!-- <a class="moreInfoArea2" href=""></a> -->
+					<!-- 	</div> -->
 					</article>
 				</div>
 				<div class="line"></div>
 				<BR />
 					<div class="areaProd">
-						<article class="newProd">
+						<article>
 							<div class="flexslider">
 							 <ul class="slides">
 							   	  <li>
@@ -55,20 +54,20 @@
 								    </li>
 						 	 </ul>
 						</div>
-			 			<div class="infoProd">
+			 			<!-- <div class="infoProd"> -->
 		<!-- 					<h1>T-SHIRT FRAINEZI JOKER</h1><br />
 							<p class="description"></p>
 							<p class="prix">10<font class="centimes">€99</font></p> -->
-						<!-- 	<div class="moreInfoArea">
 
-							</div> -->
-						</div>
+					<!-- 	</div> -->
+							<a class="moreInfoArea" href=""></a>
+							<!-- <a class="moreInfoArea2" href=""></a> -->
 						</article>
 					</div>
 					<div class="line"></div>
 					<BR />
 					<div class="areaProd">
-						<article class="newProd">
+						<article>
 							<div class="flexslider">
 							 <ul class="slides">
 							   	  <li>
@@ -79,14 +78,13 @@
 								    </li>
 						 	 </ul>
 						</div>
-						<div class="infoProd">
+			<!-- 			<div class="infoProd"> -->
 		<!-- 					<h1>T-SHIRT FRAINEZI OTHER</h1><br />
 							<p class="description"></p>
 							<p class="prix">9<font class="centimes">€99</font></p> -->
-					<!-- 		<div class="moreInfoArea">
-
-							</div> -->
-						</div>
+							<a class="moreInfoArea" href=""></a>
+							<!-- <a class="moreInfoArea2" href=""></a> -->
+						<!-- </div> -->
 						</article>
 					</div>
 					<div class="line"></div>
